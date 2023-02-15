@@ -28,15 +28,20 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 15px;
-
 }
 #links{
     justify-content: space-around;
     text-decoration: none;
     padding: 20px;
     font-size: 1.5rem;
+    font-weight: 900;
     color: black;
 }
 #links:hover{
     background-color: #24866E;
 }
+body.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+

@@ -1,10 +1,27 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { DarkModeSwitch } from 'react-toggle-dark-mode';
+import {useState, useEffect} from 'react';
+
 import "./navbar.css"
 
 
 function Navbar() {
-    
+  const [isDarkMode, setDarkMode] = useState(false);
+  
+  useEffect(() => {
+    const body = document.querySelector('body');
+    if (isDarkMode) {
+      body.classList.add('dark-mode');
+    } else {
+      body.classList.remove('dark-mode');
+    }
+  }, [isDarkMode]);
+
+  const toggleDarkMode = (checked: boolean) => {
+    setDarkMode(checked);
+  };
+
   return ( 
     <div className='navbar'>
       <div className='nav-section'>
@@ -17,9 +34,12 @@ function Navbar() {
                 <NavLink to= "/resume" id='links'>Resume</NavLink>
                 <NavLink to= "/contact" id='links'>Contact</NavLink>
             </nav>
-            {/* <div className='darkmode'>
-
-            </div> */}
+            <DarkModeSwitch
+                style={{ marginBottom: '2rem' }}
+                checked={isDarkMode}
+                onChange={toggleDarkMode}
+                size={120}
+            />
       </div>
     </div>
   )

@@ -6,7 +6,9 @@ import About from './about/About';
 import Resume from './resume/Resume';
 import Contact from './contact/Contact';
 
+
 function App() {
+  
 
   return (
     <div className='app'>
@@ -16,7 +18,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/" element={<Home />} />
         </Routes>
-
+        
     </div>
   );
 }
