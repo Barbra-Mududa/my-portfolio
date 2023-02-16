@@ -1,0 +1,51 @@
+.homeContainer{
+    margin-top: 18rem;
+}
+#type-animation{
+    text-align: center;
+    vertical-align: middle;
+}
+.homeContainer p{
+    margin-left: 25rem;
+    font-size: 1.5em;
+}
+.home-btn{
+    /* padding: 15px; */
+    width: 8rem;
+    font-size: 1.1em;
+    font-weight: 900;
+    background-color: #24866E;
+}
+.home-btn:hover{
+    background-color: transparent;
+    /* color: #FFFF; */
+}
+#email-link{
+    font-weight: 900;
+    color: darkgray;  
+}
+#email-link:hover{
+    color: #24866E;
+}
+.contact-icons {
+    margin-left: 24rem;
+}
+#icons{
+    padding: 20px;
+    font-size: 3rem;
+}
+#icons:hover{
+    transform: scale(1.5);
+}
+.home-arrow{
+    padding-top: 20px;
+    margin-left: 25rem;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+#arrow{
+    color: black;
+}
+#arrow:hover{
+    transform: scale(1.5);
+}
