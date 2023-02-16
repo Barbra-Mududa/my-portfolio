@@ -36,10 +36,12 @@ nav{
     font-size: 1.5rem;
     font-weight: 900;
     color: black;
+    cursor: pointer;
 }
 #links:hover{
     background-color: #24866E;
 }
+
 body.dark-mode {
   background-color: #222;
   color: #fff;
