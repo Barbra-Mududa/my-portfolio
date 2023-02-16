@@ -35,7 +35,7 @@ nav{
     padding: 20px;
     font-size: 1.5rem;
     font-weight: 900;
-    color: black;
+    color: rgb(88, 82, 82);
     cursor: pointer;
 }
 #links:hover{
