@@ -1,8 +1,11 @@
+.resumeContainer{
+    margin-top: 5rem;
+}
 .resume-container{
-    background: #ebe5e5;
+    background: transparent;
     color: rgb(88, 82, 82);
     font-weight: 900;
-    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    box-shadow: 0 30px 30px 0 rgba(90, 116, 148, 0.4);
     border-radius: 5px;
     max-width: 48rem;
     margin-left: auto;
@@ -12,6 +15,7 @@
     left: 0;
     right: 0;
     position: absolute;
+    margin-top: 5px;
 }
 .resume-section{
     text-align: center;
@@ -22,7 +26,7 @@
     margin-bottom: 5em;
     margin-top: 5rem;
     margin-left: 15rem;
-    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    /* box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4); */
     border-radius: 5px;
 }
 #img-cv:hover{

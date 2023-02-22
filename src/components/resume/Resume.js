@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
 import './resume.css'
 
@@ -16,7 +16,7 @@ function Resume() {
 
 
   return (
-    <div className='homeContainer'>
+    <div className='resumeContainer'>
       <div className='resume-container'>
         <div className='resume-section'>
           <h2>Resumé...</h2>
