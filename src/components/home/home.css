@@ -1,12 +1,13 @@
-.homeContainer{
+.main-page{
     margin-top: 10rem;
+    /* margin-left: 10rem; */
 }
 #type-animation{
     text-align: center;
     vertical-align: middle;
 }
 .homeContainer p{
-    margin-left: 25rem;
+    margin-left: 20rem;
     font-size: 1.5em;
 }
 .home-btn{
@@ -22,13 +23,13 @@
 }
 #email-link{
     font-weight: 900;
-    color: darkgray;  
+    color: rgb(88, 82, 82);
 }
 #email-link:hover{
     color: #24866E;
 }
 .contact-icons {
-    margin-left: 24rem;
+    margin-left: 20rem;
 }
 #icons{
     padding: 20px;
@@ -39,12 +40,14 @@
 }
 .home-arrow{
     padding-top: 20px;
-    margin-left: 25rem;
+    margin-left: 20rem;
     font-size: 2.5em;
     font-weight: 900;
 }
 #arrow{
     color: black;
+    position: relative;
+    left: 10px;
 }
 #arrow:hover{
     transform: scale(1.5);
