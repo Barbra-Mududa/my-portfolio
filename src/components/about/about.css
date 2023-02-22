@@ -1,9 +1,109 @@
 .aboutContainer{
     margin-top: 5rem;
+    margin-left: 20rem;
 }
-.card{
-    max-width: 400px;
-    height: 300px;
-    opacity: 0.6;
+.aboutHero{
+    width: 75%;
+}
+.aboutHero h2{
+    font-size: 2.5em;
+    font-weight: 900;
+    margin: 20px 0 ;
+}
+.aboutHero h4{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.education h3{
+    font-size: 1.8em;
+    font-weight: 700;
+    margin: 20px 0; 
+}
+.card-container figure{
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 30px 0px;
 
 }
+.card{
+    margin-left: 40px; 
+}
+.card img{
+    overflow: content-box; 
+    object-fit: cover;  
+    opacity: 0.2;
+    transition: opacity 0.35s;
+    width: 26rem;
+    height: 26rem; 
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+}
+.card-img-overlay{
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: auto;
+    height: 100%;
+    content: '';
+    opacity: 1;
+    background-color: rgba(0,0,0, 0.5);
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    transition: all ease-in-out 0.5s;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+.card-img-overlay p{
+  position: relative;
+  top: 2rem;
+  font-weight: 900;
+  font-size: 1.3em;
+  color: rgb(10, 10, 10);
+}
+.card:hover .card-img-overlay {
+opacity: 1;
+}
+
+.myReads h3{
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 1.8em;
+}
+.readList ul{
+    position: relative;
+}
+.readList ul li{
+    position: relative;
+    left: 0;
+    list-style: none;
+    margin: 10px 0;
+    border-left: 4px solid #24866E;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 1.5em;
+
+}
+.readList ul li:hover{
+    left: 20px;
+}
+.about-arrow{
+    padding-top: 20px;
+    /* margin-left: 10rem; */
+    font-size: 1.8em;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.readList ul li p{
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-bottom: 20px; 
+    opacity: 0.3;
+}
+.readList ul li p:hover{
+    opacity: 1;
+}
+
