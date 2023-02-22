@@ -3,9 +3,9 @@ import './project.css'
 
 function Project() {
   return (
-    <div className='homeContainer'>
+    <div className='projectContainer'>
       <div className='project-section'>
-        <div>
+        <div className='project-heading'>
           <h2>My Projects</h2>
         </div>
         <div className='project-cards'>
@@ -14,12 +14,7 @@ function Project() {
         <div className='technologies'>
           <h3>TECHNOLOGIES I USED TO BUILD STUFF</h3>
           <div className='tech-icons'>
-            {/* <<i class="fa-brands fa-html5" id='techi'></i>
-            <i class="fa-brands fa-css3" id='techi'></i>
-            <i class="fa-brands fa-bootstrap" id='techi'></i>
-            <i class="fa-brands fa-node" id='techi'></i>
-            <i class="fa-brands fa-react" id='techi'></i>> */}
-              <img id='tech1' 
+             <img id='tech1' 
                 src='https://www.datocms-assets.com/45470/1631110818-logo-react-js.png' 
                 alt=''
               />
