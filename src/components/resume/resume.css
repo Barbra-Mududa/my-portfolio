@@ -19,7 +19,9 @@
 }
 .resume-section{
     text-align: center;
-    font-size: 1.5em;
+}
+.resume-section h2{
+    font-size: 2.5em;
 }
 #img-cv{
     max-height: 25rem;

@@ -12,10 +12,12 @@
 }
 .nav-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .logo{
     font-size: 5rem;
+    margin-left: 18rem;
+
 }
 #logos{
     text-decoration: none;
@@ -28,6 +30,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 15px;
+    margin-left: 11rem;
+
 }
 #links{
     justify-content: space-around;
