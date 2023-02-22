@@ -3,10 +3,10 @@ import './about.css'
 
 function Card() {
   return (
-    <div>
-        <figure>
-        <div className='card shadow s-white rounded text-black'>
-            <img src='https://i.postimg.cc/853LHjYt/image-5-1.jpg' alt=''/>
+    <div className='card-container'>
+    <figure>
+        <div className='card shadow s-white rounded text-black' >
+            <img src='https://i.postimg.cc/hjLHp1qc/Uon-emblem.gif' alt=''/>
           <figcaption>
             <div className='card-img-overlay d-flex flex-column my-text'>
               <p id='overlay-text'>University of Nairobi: 2018-2022</p>
@@ -14,20 +14,18 @@ function Card() {
             </div>
           </figcaption>
         </div>
-        </figure>
-        <figure>
-        <div className='card shadow s-white rounded text-black'>
-          <div>
+        {/* </figure>
+        <figure> */}
+        <div className='card shadow s-white rounded text-black' >
             <img src='https://i.postimg.cc/rpgNWFsg/image-5-2.jpg' alt=''/>
-          </div>
           <figcaption>
-            <div classname='card-img-overlay d-flex flex-column my-text'>
+            <div className='card-img-overlay d-flex flex-column my-text'>
               <p id='overlay-text'>Moringa School 2022-2023</p>
               <p id='overlay-text'>Software Development</p>
-              <p id='overlay-text'>HTML%, CSS, JavaScript, React,Bootstrap, Node.js, Ruby, Ruby on Rails, MySQL</p>
+              <p>HTML%, CSS, JavaScript, React,Bootstrap, Node.js, Ruby, Ruby on Rails, MySQL</p>
             </div>
           </figcaption>
-          </div>
+        </div>
         </figure>
     </div>
   )
