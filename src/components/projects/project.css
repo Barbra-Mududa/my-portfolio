@@ -1,26 +1,133 @@
+.projectContainer{
+    margin-right: 20rem;
+}
+
 .project-section{
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
     padding-bottom: 30px;
-    left: 20rem;
+    left: 16rem;
     right: 0;
     position: absolute;
+}
+.pcard-section{
+    display:grid; 
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem;
+    
+}
+.projects h2{
+    margin: 20px 0;
+    font-size: 2.5rem;
+}
+.profile-card-4 {
+    max-width: 350px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    margin: 7px auto;
+    cursor: pointer;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+
+}
+
+.profile-card-4 img {
+    transition: all 0.25s linear;
+    max-height: 12rem;
+    max-width: fit-content;
+}
+
+.profile-card-4 .profile-content {
+    position: relative;
+    padding: 15px;
+    background-color: #FFF;
+}
+
+.profile-card-4 .profile-name {
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -70px;
+    color: #FFF;
+    font-size: 17px;
+}
+
+.profile-card-4 .profile-name p {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+
+.profile-card-4 .profile-description {
+    color: #777;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.profile-card-4 .profile-overview {
+    padding: 15px 0px;
+}
+
+.profile-card-4 .profile-overview p {
+    font-size: 10px;
+    font-weight: 600;
+    color: #777;
+}
+
+.profile-card-4 .profile-overview h4 {
+    color: #273751;
+    font-weight: bold;
+}
+
+.profile-card-4 .profile-content::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+    background-color: #FFF;
+    z-index: 0;
+}
+#p-btn{
+   /* padding: 10px;  */
+   width: 100px;
+   height: fit-content;
+   font-weight: 700;
+   font-size: 1.3em;
+   background-color: #24866E;
 }
 .tech-icons {
     margin-top: 3rem;
 }
 #tech1{
-    width: 7rem;
+    width: 10rem;
     height: 7rem;
     margin-left: 1.5rem;
     margin-bottom: 2rem;
 }
 #tech{
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     margin-left: 1.5rem;
+    margin-bottom: 2rem;
 }
-.stacks{
+.three-icons{
+    width: 40px;
+}
+.technologies h3{
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.stacks h3{
     margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 900;
 }
