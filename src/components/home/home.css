@@ -52,3 +52,74 @@
 #arrow:hover{
     transform: scale(1.5);
 }
+@media screen and (max-width:900px) {
+    .main-page{
+        margin-top: 5rem;
+        margin-left: 40px;
+        width: 85%;
+    }
+    .homeContainer p{
+        margin-left: 0px;
+        font-size: 1.4rem;
+    }
+    #type-animation{
+        text-align: initial;
+        vertical-align: middle;
+        font-size: 1.5rem;
+    }
+    .contact-icons {
+        margin-left: 0rem;
+    }
+    #icons{
+        padding: 15px;
+        font-size: 2rem;
+    }
+    .home-arrow{
+        padding-top: 10px;
+        margin-left: 0rem;
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    #arrow{
+        color: black;
+        position: relative;
+        left: 10px;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .main-page{
+        margin-top: 5rem;
+        margin-left: 20px;
+        width: 70%;
+    }
+    .homeContainer p{
+        margin-left: 0px;
+        font-size: 1.2rem;
+    }
+    #type-animation{
+        text-align: initial;
+        vertical-align: middle;
+        font-size: 1.4rem;
+    }
+    .contact-icons {
+        margin-left: 0rem;
+    }
+    #icons{
+        padding: 15px;
+        font-size: 2rem;
+    }
+    .home-arrow{
+        padding-top: 10px;
+        margin-left: 0rem;
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    #arrow{
+        color: black;
+        position: relative;
+        left: 10px;
+        font-size: 1.5em;
+    }
+}
