@@ -25,15 +25,15 @@ function About() {
           <div className='readList'>
             <ul>
               <li><span>Leading Yourself</span>
-                <p>Leading yourself is an essential skill for success in any field. It involves developing self-awareness, setting and<br></br>
-                achieving goals, managing time effectivelyly,making decisions with confidence, and communicating  <br></br> 
-                effectively. It involves understanding your strengths and weaknesses, values and beliefs, and how you interact<br></br> 
+                <p>Leading yourself is an essential skill for success in any field. It involves developing self-awareness, setting and
+                achieving goals, managing time effectivelyly,making decisions with confidence, and communicating   
+                effectively. It involves understanding your strengths and weaknesses, values and beliefs, and how you interact
                 with others. Moroever, it outlines  how to stay focused on what you want to achieve.
                 </p>
               </li>
               <li><span>Teamwork Foundations</span>
-              <p>Teamwork Foundation is a set of principles and practices that help teams work together more effectively. It<br></br>
-               focuses on problem-solving, collaboration, conflict resolution, and team dynamics. By understanding the<br></br> importance of teamwork and how to foster it in the workplace, teams can become more productive and<br></br> successful.</p>
+              <p>Teamwork Foundation is a set of principles and practices that help teams work together more effectively. It
+               focuses on problem-solving, collaboration, conflict resolution, and team dynamics. By understanding the importance of teamwork and how to foster it in the workplace, teams can become more productive and successful.</p>
               </li>
             </ul>
           </div>
