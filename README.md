@@ -39,7 +39,7 @@ npm start
 ```
 
 ### Live Link
-[my-portfolio]()
+[my-portfolio](https://barbramududa.vercel.app/)
 
 ### Technologies Used
 1. HTML
