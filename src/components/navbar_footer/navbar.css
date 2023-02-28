@@ -1,7 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap'); 
 
 nav{
-    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
@@ -9,7 +8,7 @@ nav{
     justify-content:space-around;
     border-bottom: 2px solid lightgrey;
     box-shadow: 0 2px 0px 0 rgba(90, 116, 148, 0.4);
-    /* backdrop-filter: blur(2px); */
+    /* backdrop-filte: blur(2px); */
     height: 10rem;  
     align-items:center;
     background-color: transparent;
@@ -80,18 +79,20 @@ nav{
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     .menu {
         display: block;
     }
-
+    #header{
+        font-size: 3rem;
+    }
     .middle-nav {
         position: absolute;
         top: 70px;
         right: -80%;
-        width: 40%;
+        width: 20%;
         min-width: 300px;
-        height: calc(100vh - 70px);
+        height: calc(50vh - 70px);
         background-color: #24866E;
         color: rgb(88, 82, 82);
         transition: all 0.5s;
@@ -106,7 +107,7 @@ nav{
         flex-direction: column;
         justify-content: center;
         height: 100%;
-        gap: 30px;
+        gap: 20px;
         text-align: center;
     }
 
