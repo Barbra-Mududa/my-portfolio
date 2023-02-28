@@ -109,13 +109,13 @@
 #tech1{
     width: 10rem;
     height: 7rem;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     margin-bottom: 2rem;
 }
 #tech{
     width: 6rem;
     height: 6rem;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     margin-bottom: 2rem;
 }
 .three-icons{
@@ -130,4 +130,85 @@
     margin-top: 3rem;
     font-size: 2rem;
     font-weight: 900;
+}
+@media screen and (max-width:900px) {
+    .project-section{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        left: 5rem;
+        right: 0;
+        position: absolute;
+    } 
+    .pcard-section{
+        display:grid; 
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0.2rem;   
+    }
+    .profile-card-4 {
+        max-width: 260px;
+        background-color: #FFF;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        margin: 7px auto;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 750px) {
+    .project-section{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        left: 2rem;
+        right: 0;
+        position: absolute;
+    } 
+    .pcard-section{
+        display:grid; 
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0.3rem;   
+    }
+    .profile-card-4 {
+        max-width: 180px;
+        background-color: #FFF;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 580px) {
+    .project-section{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        left: 1rem;
+        right: 0;
+        position: absolute;
+    } 
+    .pcard-section{
+        display:grid; 
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0.2rem;   
+    }
+    .profile-card-4 {
+        max-width: 150px;
+        background-color: #FFF;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+    }
 }
