@@ -83,7 +83,7 @@ nav {
     display: block;
   }
   #header {
-    font-size: 3rem;
+    font-size: 4.5rem;
   }
   .middle-nav {
     /* right: -80%;
@@ -100,8 +100,9 @@ nav {
   .middle-nav.active {
     /* right: 0; */
     position: absolute;
-    top: 70px;
+    top: 90px;
     display: block;
+    right: 20px;
     /* right: -80%; */
     /* width: 100%; */
     /* width: 20%; */
@@ -132,7 +133,7 @@ nav {
 
 @media screen and (max-width: 510px) {
   #header {
-    font-size: 20px;
+    font-size: 3.5em;
   }
 }
 body.dark-mode {
