@@ -1,8 +1,15 @@
 import React from 'react'
 import './project.css'
 import ProjectCard from './ProjectCard'
+import Stacks from './Stacks'
 
 function Project() {
+  const iconStyle = {
+    fontSize: '4rem',
+    marginLeft: '5rem',
+    marginTop: '20px'
+  }
+
   return (
     <div className='projectContainer'>
       <div className='project-section'>
@@ -13,39 +20,47 @@ function Project() {
         <div className='technologies'>
           <h3>Technologies I Use</h3>
           <div className='tech-icons'>
-             <img id='tech1' 
-                src='https://www.datocms-assets.com/45470/1631110818-logo-react-js.png' 
-                alt=''
-              />
-              <img id='tech1' className='three-icons'
-                src='https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png' 
-                alt=''
-              />
-              <img id='tech1' 
-                src='https://i.postimg.cc/W4JpB1B4/image-5-3.jpg' 
-                alt=''
-              />
-              <img id='tech1' 
-                src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png' 
-                alt=''
-              />
-              <img id='tech' 
-                src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1200px-Ruby_logo.svg.png' 
-                alt=''
-              />
-              <img id='tech' 
-                src='https://atlantictech.io/wp-content/uploads/2022/08/cfcd3-ruby2.png' 
-                alt=''
-              />
-              <img id='tech' 
-                src='https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png'
-                alt=''
-              />
+            <div className='group1'>
+              <div id='tech'>
+                <i class="fa fa-html5" aria-hidden="true" style={iconStyle}></i>
+                <h4>HTML5</h4>
+              </div>
+              <div id='tech'>
+                <i class="fa fa-css3" aria-hidden="true" style={iconStyle}></i>
+                <h4>CSS</h4>
+              </div>
+              <div id='tech'>
+                <i class="fa-brands fa-react" style={iconStyle}></i>  
+                <h4>REACT</h4>
+              </div>
+              <div id='tech'>
+                <i class="fa-brands fa-bootstrap" style={iconStyle}></i>               
+               <h4>BOOOTSTRAP</h4>
+              </div>
+              <div id='tech'>
+                <img src='https://i.postimg.cc/dtPSL0qG/image-33.jpg' className='tailwind'/>
+                <h4>TAILWIND</h4>
+              </div>
+            </div>
+            <div className='group2'>
+              <div id='tech1'>
+                <img src='https://i.postimg.cc/YSxwD4tH/image-34.jpg' className='tailwind'/>
+                <h4>RUBY</h4>
+              </div>
+              <div id='tech1'>
+                <img src='https://i.postimg.cc/V6LPxYNb/image-35.jpg' className='tailwind'/>
+                <h4>RAILS</h4>
+              </div>
+              <div id='tech1'>
+                <img src='https://i.postimg.cc/xCxVYWkp/image-36.jpg' className='tailwind'/>
+              </div>
+            </div>
           </div>
         </div>
-        {/* <div className='stacks'>
+        <div className='stacks'>
           <h3> My Stacks</h3>
-        </div> */}
+          <Stacks />
+        </div>
       </div>
     </div>
   )
