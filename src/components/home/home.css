@@ -56,7 +56,10 @@
     .main-page{
         margin-top: 5rem;
         margin-left: 40px;
-        width: 85%;
+        width: 90%;
+    }
+    .homeContainer h1{
+        font-size: 4rem;
     }
     .homeContainer p{
         margin-left: 0px;
@@ -87,12 +90,20 @@
         font-size: 1.5em;
     }
 }
+@media screen and (max-width: 750px) {
+    .homeContainer h1{
+        font-size: 3rem;
+    }
+}
 
 @media screen and (max-width: 580px) {
     .main-page{
         margin-top: 5rem;
         margin-left: 20px;
-        width: 70%;
+        width: 90%;
+    }
+    .homeContainer h1{
+        font-size: 3rem;
     }
     .homeContainer p{
         margin-left: 0px;
