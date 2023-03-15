@@ -13,11 +13,9 @@
 }
 .pcard-section{
     display:grid; 
-    width: 100%;
-    margin: 0 auto;
+    width: 90%;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0.8rem;
-    
+    grid-gap: 0.8rem; 
 }
 .projects h2{
     margin: 20px 0;
@@ -26,13 +24,13 @@
 .profile-card-4 {
     max-width: 350px;
     background-color: #FFF;
-    border-radius: 5px;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    /* box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1); */
     overflow: hidden;
     position: relative;
     margin: 7px auto;
     cursor: pointer;
-    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    box-shadow: 0 10px 10px 0 #565a59;
 
 }
 
@@ -102,13 +100,16 @@
    font-weight: 700;
    font-size: 1.3em;
    background-color: #24866E;
+   border-radius: 15px;
 }
 .technologies h3{
     margin-top: 3rem;
+    font-size: 2.5rem;
 }
 .tech-icons {
     margin-top: 1rem;
     display: flex;
+    color: #000;
 }
 .group1{
     width:30rem;
@@ -118,7 +119,7 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     /* margin-left: 1rem; */
-    box-shadow: 0 20px 20px 0 #7c807f;
+    box-shadow: 0 10px 10px 0 #565a59;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0.5em; 
@@ -131,7 +132,7 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 2em;
-    box-shadow: 0 20px 20px 0 #7c807f;
+    box-shadow: 0 10px 10px 0 #565a59;
     /* grid-template-columns: repeat(2, 1fr);
     grid-gap: 0.5em;  */
 }
@@ -151,8 +152,7 @@
 }
 .stacks h3{
     margin-top: 3rem;
-    font-size: 2rem;
-    font-weight: 900;
+    font-size: 2.5rem; 
 }
 .progressContainer{
     width: 50rem;
@@ -161,8 +161,7 @@
     border-radius: 10px;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    box-shadow: 0 30px 60px 0 #7c807f;
-    
+    box-shadow: 0 10px 10px 0 #565a59;   
 }
 .p1{
     width: 80%;
@@ -231,7 +230,7 @@
     .profile-card-4 {
         max-width: 260px;
         background-color: #FFF;
-        border-radius: 5px;
+        border-radius: 15px;
         overflow: hidden;
         position: relative;
         margin: 7px 5px;
@@ -259,7 +258,7 @@
     .profile-card-4 {
         max-width: 250px;
         background-color: #FFF;
-        border-radius: 5px;
+        border-radius: 15px;
         overflow: hidden;
         position: relative;
         margin: 10px auto;
@@ -275,7 +274,7 @@
         border-radius: 10px;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        box-shadow: 0 20px 20px 0 #7c807f;
+        box-shadow: 0 10px 10px 0 #565a59;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 0.5em; 
@@ -288,7 +287,7 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
         margin-left: 2em;
-        box-shadow: 0 20px 20px 0 #7c807f;
+        box-shadow: 0 10px 10px 0 #565a59;
         /* grid-template-columns: repeat(2, 1fr);
         grid-gap: 0.5em;  */
     }
@@ -346,7 +345,7 @@
     .profile-card-4 {
         max-width: 280px;
         background-color: #FFF;
-        border-radius: 5px;
+        border-radius: 15px;
         overflow: hidden;
         position: relative;
         margin: 10px auto;
@@ -367,7 +366,7 @@
         border-radius: 10px;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        box-shadow: 0 20px 20px 0 #7c807f;
+        box-shadow: 0 10px 10px 0 #565a59;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 0.5em; 
@@ -380,7 +379,7 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
         margin-left: 0.5em;
-        box-shadow: 0 20px 20px 0 #7c807f;
+        box-shadow: 0 10px 10px 0 #565a59;
         /* grid-template-columns: repeat(2, 1fr);
         grid-gap: 0.5em;  */
     }
@@ -399,7 +398,7 @@
         border-radius: 10px;
         margin-top: 3rem;
         margin-bottom: 3rem;
-        box-shadow: 0 30px 60px 0 #7c807f;
+        box-shadow: 0 10px 10px 0 #565a59;
         margin-left: 2rem;
         
     }
