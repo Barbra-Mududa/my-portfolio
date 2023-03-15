@@ -9,10 +9,10 @@ function About() {
       <div className='aboutSection'>
         <div className='aboutHero'>
           <h2>About Me...</h2>
-          <h4>As a young and enthusiastic software developer, I have the ambition to create interactive and <br></br> practical platforms 
-              that address current challenges. My goal is to help businesses and individuals <br></br> solve their day-to-day problems with 
-              innovative solutions. My previous experience and skills have<br></br> enabled me to build robust applications that are easy 
-              to use and highly efficient. With my expertise,<br></br> I can provide you with the perfect tool for your business or project
+          <h4>As a young and enthusiastic software developer, I have the ambition to create interactive and practical platforms 
+              that address current challenges. My goal is to help businesses and individuals solve their day-to-day problems with 
+              innovative solutions. My previous experience and skills have enabled me to build robust applications that are easy 
+              to use and highly efficient. With my expertise, I can provide you with the perfect tool for your business or project
               needs. 
           </h4>
         </div>
