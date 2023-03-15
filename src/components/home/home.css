@@ -3,12 +3,13 @@
     /* margin-left: 10rem; */
 }
 #type-animation{
-    text-align: center;
+    margin-left:16rem ;
     vertical-align: middle;
 }
 .homeContainer p{
-    margin-left: 20rem;
+    margin-left: 16rem;
     font-size: 1.5em;
+    width: 65%;
 }
 .home-btn{
     /* padding: 15px; */
@@ -16,6 +17,7 @@
     font-size: 1.1em;
     font-weight: 900;
     background-color: #24866E;
+    border-radius: 15px ;
 }
 .home-btn:hover{
     background-color: transparent;
@@ -59,14 +61,15 @@
         width: 90%;
     }
     .homeContainer h1{
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
     .homeContainer p{
         margin-left: 0px;
         font-size: 1.4rem;
+        width: 90%;
     }
     #type-animation{
-        text-align: initial;
+        margin-left: 0px;
         vertical-align: middle;
         font-size: 1.5rem;
     }
@@ -92,7 +95,12 @@
 }
 @media screen and (max-width: 750px) {
     .homeContainer h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+    .homeContainer p{
+        margin-left: 0px;
+        font-size: 1.2rem;
+        width: 90%;
     }
 }
 
@@ -103,14 +111,15 @@
         width: 90%;
     }
     .homeContainer h1{
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     .homeContainer p{
         margin-left: 0px;
         font-size: 1.2rem;
+        width: 90%;
     }
     #type-animation{
-        text-align: initial;
+        margin-left: 0px;
         vertical-align: middle;
         font-size: 1.4rem;
     }

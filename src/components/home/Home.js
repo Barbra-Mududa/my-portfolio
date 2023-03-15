@@ -29,8 +29,7 @@ function Home() {
           />
         </h1>
         <p>
-          Dedicated full-stack developer with experience creating web applications
-          with JavaScript,<br></br>Reactjs,Nodejs, SQL, Ruby and Ruby on Ruby on Rails.
+          I am an experienced software developer with expertise in React, Ruby on Rails, MySQL, HTML, CSS, and JavaScript. I possess an in-depth understanding of web development and possess the ability to deliver high-quality solutions. Moreover, I have knowledge on plaforms like Jira and Figma.
         </p>
         <p>
           View my <Link to='/projects'><button className='home-btn'>Projects</button></Link>, <Link to='/about'><button className='home-btn'>About</button>
