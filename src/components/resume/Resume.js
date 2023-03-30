@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import './resume.css'
+import './resume.css';
 
 function Resume() {
 
   const downloadFile = () => {
     const link = document.createElement("a");
     link.download = "file.pdf";
-    link.href = "https://drive.google.com/file/d/1UYWKWRJDvFlcTgzlgeNsqszVEfuid3TV/view?usp=sharing";
+    link.href = "https://drive.google.com/file/d/1QgdngbI-7tqJz6R9ZJjuGoFhL9Hw1Ns2/view?usp=sharing";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -24,7 +24,7 @@ function Resume() {
           </Link> my resume</h4>
         </div>
         <div className='preview'>
-          <Link to='https://drive.google.com/file/d/1UYWKWRJDvFlcTgzlgeNsqszVEfuid3TV/view?usp=sharing'>
+          <Link to='https://drive.google.com/file/d/1QgdngbI-7tqJz6R9ZJjuGoFhL9Hw1Ns2/view?usp=sharing'>
           <img id='img-cv' src='https://i.postimg.cc/zGCMzKRW/Screenshot-from-2023-02-17-18-42-39.png'
           alt='resume preview'
           />
