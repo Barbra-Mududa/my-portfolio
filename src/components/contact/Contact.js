@@ -27,9 +27,8 @@ function Contact() {
             <Link onClick={handleEmailClick}>
               <i class="fa-solid fa-envelope" id='icons'></i>
             </Link>
-            
-      </div >
-      <div className='contact-arrow'>
+            </div>
+          <div className='contact-arrow'>
         Go Back Home <Link to='/'>
           <i class="fa-sharp fa-solid fa-arrow-right" id='arrow'></i>
           </Link> 
