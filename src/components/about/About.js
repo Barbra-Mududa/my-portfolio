@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Card from './Card';
 import './about.css'
+import Footer from '../navbar_footer/Footer';
 
 function About() {
   return (
@@ -44,6 +45,7 @@ function About() {
           </Link> 
       </div> 
       </div>
+      <Footer/>
     </div>
   )
 }
