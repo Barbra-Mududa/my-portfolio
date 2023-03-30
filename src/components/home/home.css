@@ -1,5 +1,6 @@
 .main-page{
     margin-top: 10rem;
+    height: fit-content;
     /* margin-left: 10rem; */
 }
 #type-animation{
@@ -10,6 +11,7 @@
     margin-left: 16rem;
     font-size: 1.5em;
     width: 65%;
+    max-height: fit-content;
 }
 .home-btn{
     /* padding: 15px; */
@@ -53,6 +55,55 @@
 }
 #arrow:hover{
     transform: scale(1.5);
+}
+@media screen and (max-width:1200px) {
+    .main-page{
+        margin-top: 5rem;
+        margin-left: 80px;
+        width: 90%;
+    }
+    .homeContainer h1{
+        font-size: 2.5rem;
+    }
+    .homeContainer p{
+        margin-left: 0px;
+        font-size: 1.6rem;
+        width: 90%;
+    }
+    #type-animation{
+        margin-left: 0px;
+        vertical-align: middle;
+        font-size: 2rem;
+    }
+    .contact-icons {
+        margin-left: 0rem;
+    }
+    #icons{
+        padding: 15px;
+        font-size: 2rem;
+    }
+    .home-arrow{
+        padding-top: 10px;
+        margin-left: 0rem;
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    #arrow{
+        color: black;
+        position: relative;
+        left: 10px;
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 750px) {
+    .homeContainer h1{
+        font-size: 2.5rem;
+    }
+    .homeContainer p{
+        margin-left: 0px;
+        font-size: 1.2rem;
+        width: 90%;
+    }
 }
 @media screen and (max-width:900px) {
     .main-page{

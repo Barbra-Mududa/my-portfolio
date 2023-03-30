@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
 import './home.css';
+import Footer from '../navbar_footer/Footer';
 
 function Home() {
   const handleEmailClick = () => {
@@ -55,8 +56,9 @@ function Home() {
           <i class="fa-sharp fa-solid fa-arrow-right" id='arrow'></i>
           </Link> 
       </div>
-      
+      <Footer/>
     </div>
+   
   )
 }
 
