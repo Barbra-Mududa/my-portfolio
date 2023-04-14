@@ -15,7 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - uses: actions/checkout@v2.5.1
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.5.2
         with:
           submodules: true
       - name: Build And Deploy
