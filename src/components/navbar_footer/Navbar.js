@@ -59,6 +59,9 @@ function Navbar({ user, setUser }) {
           <NavLink to="/resume" className="navlink" onClick={aLink}>
             Resume
           </NavLink>
+          <NavLink to="/blog" className="navlink" onClick={aLink}>
+            Blog
+          </NavLink>
           <NavLink to="/contact" className="navlink" onClick={aLink}>
             Contact{" "}
           </NavLink>

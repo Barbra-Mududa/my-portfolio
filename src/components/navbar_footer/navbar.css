@@ -43,8 +43,9 @@ nav {
 
 .container1-nav .navlink {
   margin: 0 10px;
-  color: rgb(88, 82, 82);
+  color: #24866e;
   font-size: 1.8rem;
+  font-weight: 900;
 }
 
 .menu {
