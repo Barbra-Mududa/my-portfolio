@@ -1,0 +1,187 @@
+.blogcontainer .blogs{
+    margin-right: 10rem; 
+}
+.blog-page{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    left: 16rem;
+    right: 0;
+    position: absolute;
+}
+.blog-section{
+    display:grid; 
+    width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.8rem;  
+}
+.myblogs-card-4{
+    max-width: 350px;
+    background-color: #FFF;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    margin: 7px auto;
+    cursor: pointer;
+    box-shadow: 0 5px 5px 0 #565a59;
+}
+.myblogs-card-4 img{
+    transition: all 0.25s linear;
+    max-height: 14rem;
+    max-width: fit-content;
+}
+.myblogs-card-4 .blog-content{
+    position: relative;
+    padding: 15px;
+    background-color: #FFF;
+}
+.myblogs-description{
+    color: #777;
+}
+.myblogs-description h4{
+    color: #273751;
+}
+@media screen and (max-width:1200px) {
+    .blog-page{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        left: 6rem;
+        right: 0;
+        position: relative;
+        justify-content: space-around;
+
+    } 
+    .blog-section{
+        display:grid; 
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.5em;   
+    }
+    .myblogs-card-4 {
+        max-width: 380px;
+        background-color: #FFF;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        margin: 7px 5px;
+        cursor: pointer;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:900px) {
+    .blog-page{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        left: 2rem;
+        right: 0;
+        position: relative;
+        justify-content: space-around;
+
+    } 
+    .blog-section{
+        display:grid; 
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.5em;   
+    }
+    .myblogs-card-4 {
+        max-width: 350px;
+        background-color: #FFF;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        margin: 7px 5px;
+        cursor: pointer;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 850px) {
+    .blog-page{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        left: 2rem;
+        right: 0;
+        position: absolute;
+    } 
+    .blog-section{
+        display:grid; 
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-gap: 0.2rem;    */
+    }
+    .myblogs-card-4 {
+        max-width: 300px;
+        max-height: fit-content;
+        background-color: #FFF;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+    
+}
+@media screen and (max-width: 580px) {
+    .blog-page{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        left: 1rem;
+        right: 0;
+        position: absolute;
+    } 
+    .blog-section{
+        display:grid; 
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0.2rem;   
+    }
+    .myblogs-card-4 {
+        max-width: 280px;
+        background-color: #FFF;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 350){
+    .blog-page{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        left: 1rem;
+        right: 0;
+        position: absolute;
+    } 
+    .blog-section{
+        display:grid; 
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0.2rem;   
+    }
+    .myblogs-card-4 {
+        max-width: 180px;
+        background-color: #FFF;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+    } 
+}
