@@ -32,6 +32,13 @@
 #email-link:hover{
     color: #24866E;
 }
+#figma-link{
+    color: black;
+    font-weight: 900;
+}
+#figma-link:hover{
+    color: #24866E;
+}
 .contact-icons {
     margin-left: 20rem;
 }

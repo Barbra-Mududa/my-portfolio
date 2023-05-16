@@ -30,7 +30,8 @@ function Home() {
           />
         </h1>
         <p>
-          I am an experienced software developer with expertise in React, Ruby on Rails, MySQL, HTML, CSS, and JavaScript. I possess an in-depth understanding of web development and possess the ability to deliver high-quality solutions. Moreover, I have knowledge on plaforms like Jira and Figma.
+          I am an experienced software developer with expertise in React, Ruby on Rails, MySQL, HTML, CSS, and JavaScript. I possess an in-depth understanding of web development and possess the ability to deliver high-quality solutions. Moreover, I have knowledge on plaforms like Jira and <Link to='https://www.figma.com/files/drafts?fuid=1202324557437039500' id='figma-link'>Figma</Link>
+
         </p>
         <p>
           View my <Link to='/projects'><button className='home-btn'>Projects</button></Link>, <Link to='/about'><button className='home-btn'>About</button>
