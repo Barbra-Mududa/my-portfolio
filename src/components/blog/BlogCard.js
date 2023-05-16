@@ -35,6 +35,16 @@ function BlogCard() {
                       </div>
                   </div>
           </div>
+          <div className='myblogs-card-4 text-center'>
+              <img class="image img-responsive" src="https://res.cloudinary.com/practicaldev/image/fetch/s--dac_exOW--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2kq8apmj7a6sgzyxnjhr.jpg" alt=''/>
+                  <div class="blog-content">
+                      <div class="myblogs-description">
+                          <h4 class="text-center"><strong>SQL Commands Guide(Cheat-sheet)</strong></h4>
+                          <p>SQL, or Structured Query Language, is a programming language used to manage data stored in relational databases.SQL statements are used to manage and manipulate data in these tables.......</p>
+                          <Link to='https://dev.to/b_mududa/sql-statements-guidecheat-sheet-4em4'>Read More</Link>
+                      </div>
+                  </div>
+          </div>
         </div>
   )
 }
